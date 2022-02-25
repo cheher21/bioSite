@@ -2,6 +2,18 @@ html {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
 
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #F4EBD0;
+    color: #122620;
+} 
+
+/* Do not remove. This allows the image and text to be side by side */
+div {
+    float: left;
+}
+
 h1 {
     color: #122620;
     text-align: center;
@@ -14,6 +26,10 @@ h1 {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #122620;
 }
 
 #nav a {
@@ -25,50 +41,48 @@ h1 {
     background-color: #B68D40;
 }
 
-.accomplish {
-
-}
-
 h2 {
-    font-size: 25px;
+    font-size: 30px;
 }
 
+/* This float allows the image to be side by side with the text */
 img {
-    margin-bottom: 10px;
+    /* margin-bottom: 10px;    
+    /* flex-basis: 40%; */
+    /* display: inline-block; */
+    /* align-items: left; */
+    float: left; 
+    margin-bottom: 50px;
+    margin-right: 50px;
     border-radius: 15px;
+    border: 1px solid #122620;
 }
 
 #image-right {
-    
+    float: right;
+    margin-left: 50px;
 }
+/* 
+#achievement-p2 {
+    margin-right: 50px;
+} */
 
-figcaption {
+/* figcaption {
     font-size: 10px;
     font-style: italic;
-}
+    /* float: left; 
+}  */
 
-body {
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #F4EBD0;
-    color: #122620;
-
-}
-
-body p {
-    margin-bottom: 50px;
-}
 
 footer {
-    position: absolute;
-    /* bottom: 0; */
-    width: 80%;
-    /* height: 2.5rem;         */
+    /* position: absolute; */
+    width: 100%;
     background:#D6AD60;
     color: #122620;
     font-weight: bold;
-    margin-top: 0;
-    border-radius: 10px;
+    text-align: center;
+    float: left;
+    border: 1px solid #122620;
 }
 
 footer a:hover {
