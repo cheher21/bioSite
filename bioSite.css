@@ -1,12 +1,20 @@
 html {
     font-family: 'Roboto', Verdana, Arial, sans-serif;
 }
+/* 
+header {
+    background-color: #D6AD60;
+    width: 100%;
+    padding: 20px 30px 1px 30px;
+} */
 
 body {
     margin-left: 10%;
     margin-right: 10%;
     background-color: #F4EBD0;
     color: #122620;
+    /* position: relative;
+    min-height: 100vh; */
 } 
 
 /* Do not remove. This allows the image and text to be side by side */
@@ -14,10 +22,19 @@ div {
     float: left;
 }
 
+#home-body {
+    margin-bottom: 50px;
+}
+
+.container {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 h1 {
     color: #122620;
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 #nav {
@@ -35,6 +52,7 @@ h1 {
 #nav a {
     margin: 100px;
     text-decoration: none;
+    font-size: 30px;
 }
 
 #nav a:hover {
@@ -73,9 +91,22 @@ img {
     /* float: left; 
 }  */
 
+.next {
+    text-decoration: none;
+    /* display: inline-block; */
+    padding: 8px 16px;
+    background-color: #B68D40;
+    color: white;
+    float: right;
+  }
+
+  .next:hover {
+      background-color: #D6AD60;
+  }
 
 footer {
-    /* position: absolute; */
+    /* position: absolute;
+    bottom: 0; */
     width: 100%;
     background:#D6AD60;
     color: #122620;
@@ -83,6 +114,7 @@ footer {
     text-align: center;
     float: left;
     border: 1px solid #122620;
+    /* padding-top: 20px; */
 }
 
 footer a:hover {
